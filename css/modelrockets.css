@@ -1,3 +1,7 @@
+nav a {
+  transition: background-color 0.25s;
+}
+
 body {
   background-color: lightgray;
   margin:0px;
@@ -46,7 +50,6 @@ img.imgLeft {
 
 .boldStepNumber {
   font-size:55px;
-  /*background-color: green;*/
   padding: 8px 10px 30px 0px;
 
   border-radius: 6px;
@@ -67,7 +70,10 @@ img.imgLeft {
 }
 
 .heading{
+}
 
+#heading {
+  padding: 20px;
 }
 
 .ptext {
