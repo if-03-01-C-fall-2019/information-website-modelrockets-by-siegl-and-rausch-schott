@@ -10,6 +10,10 @@
   #nav {
     position: static;
   }
+
+  #fueldisclaimer {
+    margin-top: 100px;
+  }
 }
 
 /* ******/
@@ -62,6 +66,7 @@
   background-color: inherit;
   color: red;
   text-transform: uppercase;
+  border: 2px solid red;
 }
 
 .ptext {
@@ -75,6 +80,18 @@
   margin: 50px;
 }
 
+
+.linkToWebsite {
+  background-color: inherit;
+  color: white;
+}
+
+.linkToWebsite:hover {
+  background-color: inherit;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 
 nav a {
